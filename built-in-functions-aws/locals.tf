@@ -7,7 +7,7 @@ locals {
   object_name = "my_file_from_template"
 
   common_tags = {
-      Owner = "Daniel Gil"
-      Year = "2021"
+    Owner = "Daniel Gil"
+    Year  = "2021"
   }
 }

@@ -1,6 +1,6 @@
 # create a random sequence of words
 resource "random_pet" "bucket" {
-    length = 5
+  length = 5
 }
 
 
@@ -19,7 +19,7 @@ resource "aws_s3_bucket_object" "this" {
   key    = "${uuid()}.${local.file_ext}"
   source = data.archive_file.json.output_path
   # a resource to store its state for further atualizations
-  etag = filemd5(data.archive_file.json.output_path)
+  etag         = filemd5(data.archive_file.json.output_path)
   content_type = "application/zip"
 
   tags = local.common_tags
