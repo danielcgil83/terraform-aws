@@ -24,3 +24,12 @@ https://registry.terraform.io/providers/hashicorp/random/latest/docs
 
 Content Types AWS S3 Objects:
 https://docs.aws.amazon.com/macie/latest/userguide/macie-classify-objects-content-type.html
+
+Remote State:
+https://www.terraform.io/docs/language/state/remote.html
+
+S3 backend for Remote State:
+https://www.terraform.io/docs/language/settings/backends/s3.html
+
+Built-in Functions:
+https://www.terraform.io/docs/language/functions/index.html
