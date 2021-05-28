@@ -1,4 +1,3 @@
-# setting all the variables for this directory
 variable "aws_region" {
   type        = string
   description = ""

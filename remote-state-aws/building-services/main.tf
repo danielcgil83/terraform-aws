@@ -8,11 +8,12 @@ terraform {
       version = "3.42.0"
     }
   }
+  backend "s3" {}
 }
 
 
 # provider block is used to set the cloud provider, the region and the profile on aws cli (in case of this last one exists)
 provider "aws" {
-  region  = var.aws_region  # var name pointing to var value in variables.tf
-  profile = var.aws_profile # var name pointing to var value in variables.tf
+  region  = var.aws_region
+  profile = var.aws_profile
 }

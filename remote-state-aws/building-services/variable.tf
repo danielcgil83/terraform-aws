@@ -11,3 +11,19 @@ variable "aws_profile" {
   description = ""
   default     = "terraform"
 }
+
+
+variable "instance_ami" {
+  type        = string
+  description = ""
+  default     = "ami-0d5eff06f840b45e9"
+}
+
+
+variable "instance_type" {
+  type        = string
+  description = ""
+  default     = "t2.micro"
+}
+
+

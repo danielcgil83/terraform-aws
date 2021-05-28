@@ -19,10 +19,10 @@ provider "aws" {
 
 # resource block sets the configurations of the resources will be created, modified or destroyed
 resource "aws_s3_bucket" "name-of-bucket-for-terraform" {
-  bucket = "name-of-bucket-in-aws"  # must be unique
+  bucket = "name-of-bucket-in-aws" # must be unique
   acl    = "private"
 
   tags = {
-    name = "value"  # you can create as much tags as you want
+    name = "value" # you can create as much tags as you want
   }
 }
