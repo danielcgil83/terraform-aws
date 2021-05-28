@@ -11,7 +11,7 @@ terraform {
 }
 
 
-# provider block is used to set the cloud provider, the region and the profile of aws cli (in case of this last one exists)
+# provider block is used to set the cloud provider, the region and the profile on aws cli (in case of this last one exists)
 provider "aws" {
   region  = "us-east-1"
   profile = "terraform"
