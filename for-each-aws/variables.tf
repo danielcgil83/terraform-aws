@@ -1,4 +1,4 @@
-# setting all the variables for this directory
+# setting all the variables for main.tf
 variable "aws_region" {
   type        = string
   description = ""
@@ -11,12 +11,3 @@ variable "aws_profile" {
   description = ""
   default     = "terraform"
 }
-
-
-variable "instance_type" {
-  type        = string
-  description = ""
-  default     = "t3.micro"
-}
-
-
