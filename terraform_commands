@@ -11,3 +11,5 @@ terraform destroy
 terraform fmt
 
 terraform show
+
+terraform console

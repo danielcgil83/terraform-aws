@@ -13,8 +13,11 @@ https://www.terraform.io/docs/language/values/variables.html
 Local Values:
 https://www.terraform.io/docs/language/values/locals.html
 
-Outputs Valkues:
+Outputs Values:
 https://www.terraform.io/docs/language/values/outputs.html
+
+Data Sources:
+https://www.terraform.io/docs/language/data-sources/index.html
 
 AWS Provider:
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
