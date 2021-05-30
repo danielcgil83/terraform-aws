@@ -16,7 +16,7 @@ output "instance_arn" {
 
 # for key and value in aws_instance.this, return the key tags.Name
 output "instance_names" {
-  value = {for k, v in aws_instance.this : k => v.tags.Name}
+  value = { for k, v in aws_instance.this : k => v.tags.Name }
 }
 
 

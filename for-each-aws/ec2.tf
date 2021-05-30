@@ -5,7 +5,7 @@ data "aws_ami" "ubuntu" {
   name_regex  = "ubuntu"
 
   filter {
-    name = "architecture"
+    name   = "architecture"
     values = ["x86_64"]
   }
 }

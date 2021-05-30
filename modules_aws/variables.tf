@@ -1,4 +1,4 @@
-# setting all the variables for this directory
+# setting all the variables for main.tf
 variable "aws_region" {
   type        = string
   description = ""
