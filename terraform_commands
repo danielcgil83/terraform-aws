@@ -13,3 +13,7 @@ terraform fmt
 terraform show
 
 terraform console
+
+terraform workspace
+
+terraform refresh

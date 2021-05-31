@@ -36,3 +36,6 @@ https://www.terraform.io/docs/language/settings/backends/s3.html
 
 Built-in Functions:
 https://www.terraform.io/docs/language/functions/index.html
+
+Dynamic Blocks:
+https://www.terraform.io/docs/language/expressions/dynamic-blocks.html
