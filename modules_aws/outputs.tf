@@ -25,5 +25,5 @@ output "bucket-website-arn" {
 
 
 output "bucket-website-files" {
-  value = module.website.files                            
+  value = module.website.files
 }

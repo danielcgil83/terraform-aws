@@ -46,7 +46,7 @@ module "website" {
   source = "./s3"
   name   = random_pet.website.id
   files  = "${path.root}/website"
-  acl = "public-read"
+  acl    = "public-read"
   website = {
     index_document = "index.html"
     error_document = "error.html"

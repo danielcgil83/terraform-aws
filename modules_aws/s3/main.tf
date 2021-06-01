@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "this" {
   policy = var.policy
   tags   = var.tags
 
-# a block that can be executed or not, or can be executed in different ways depending of a condition
+  # a block that can be executed or not, or can be executed in different ways depending of a condition
   dynamic "website" {
     for_each = length(keys(var.website)) == 0 ? [] : [var.website]
     content {
@@ -16,12 +16,12 @@ resource "aws_s3_bucket" "this" {
     }
   }
 
-# a block that can be executed or not, or can be executed in different ways depending of a condition
+  # a block that can be executed or not, or can be executed in different ways depending of a condition
   dynamic "versioning" {
     for_each = length(keys(var.versioning)) == 0 ? [] : [var.versioning]
     content {
-      enabled           = lookup(versioning.value, "enabled", null)
-      mfa_delete           = lookup(versioning.value, "mfa_delete", null)
+      enabled    = lookup(versioning.value, "enabled", null)
+      mfa_delete = lookup(versioning.value, "mfa_delete", null)
     }
   }
 }
